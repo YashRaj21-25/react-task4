@@ -1,11 +1,12 @@
-import React from "react";
 import './App.css';
-import UserTable from "./Components/UserTable";
+import React from 'react';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Screen from './components/Appscreen';
 
 function App() {
   return (
-    <div className="App">
-      <UserTable/>
+    <div className='bg-dark container-fluid'>
+      <Screen />
     </div>
   );
 }
